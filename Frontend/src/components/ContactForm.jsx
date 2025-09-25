@@ -23,7 +23,7 @@ export default function ContactForm({ onSaved, editingContact, onCancelEdit }) {
       return false;
     }
     if (form.email && !emailRegex.test(form.email)) {
-      toast.error("Please enter a valid email address.");
+      toast.error("Please enter a valid email address."); 
       return false;
     }
     if (form.phone && !phoneRegex.test(form.phone)) {

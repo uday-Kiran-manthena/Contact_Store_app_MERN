@@ -20,8 +20,8 @@ frontend/dist/
 
 # Configuration files
 .env
-backend/.env
-frontend/.env
+Backend/.env
+Frontend/.env
 .env.*.local
 .vscode/*
 !.vscode/extensions.json
